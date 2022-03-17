@@ -71,8 +71,26 @@ a:hover{
     max-height:25%;
     max-width:25%;
 }
-.middle-container{
-    background-color: white;
+.project-image{
+    max-height: 25%;
+    max-width: 25%;
+    float:left;
+}
+.project{
+    max-height: 17%;
+    max-width: 17%;
+    border-radius: 0.8em;
+  
+}
+.project-funda{
+    max-height: 17%;
+    max-width: 17%;
+    border-radius: 0.8em;
+    border-color: #11999e;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
 }
 .bottom-container{
     background-color: #66BFBF;
