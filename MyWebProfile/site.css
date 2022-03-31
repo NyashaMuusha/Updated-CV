@@ -9,6 +9,8 @@ body{
 button{
     margin:0;
 }
+
+
 h1{
     margin-top:50px auto 0 auto;
     font-family: 'Sacremento',cursive;
@@ -30,7 +32,8 @@ hr{
     width:4%;
     border-top: none;
     border-color:rgb(189, 189, 189) 6px;   
-    margin:100px auto;
+    margin:100px auto !important;
+   
 }
 p{
     line-height:2;
@@ -56,6 +59,10 @@ a:hover{
 .top-container-header{
     font-size: 2.5rem;
 }
+.w3-teal{
+    background-color: #52a49d !important
+}
+
 .csharp-image{
     max-height:30%;
     max-width:30%;
@@ -77,8 +84,8 @@ a:hover{
     float:left;
 }
 .project{
-    max-height: 17%;
-    max-width: 17%;
+    max-height: 25%;
+    max-width: 25%;
     border-radius: 0.8em;
   
 }
